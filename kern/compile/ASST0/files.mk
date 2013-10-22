@@ -46,6 +46,7 @@ SRCS+=$(KTOP)/lib/misc.c
 SRCS+=$(KTOP)/lib/queue.c
 SRCS+=$(KTOP)/lib/uio.c
 SRCS+=$(KTOP)/proc/proc.c
+SRCS+=$(KTOP)/startup/hello.c
 SRCS+=$(KTOP)/startup/main.c
 SRCS+=$(KTOP)/startup/menu.c
 SRCS+=$(KTOP)/syscall/loadelf.c

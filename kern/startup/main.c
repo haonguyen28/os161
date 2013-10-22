@@ -71,6 +71,8 @@ static const char harvard_copyright[] =
     "Copyright (c) 2000, 2001, 2002, 2003, 2004, 2005, 2008, 2009\n"
     "   President and Fellows of Harvard College.  All rights reserved.\n";
 
+void hello();
+
 
 /*
  * Initial boot sequence.
@@ -207,6 +209,7 @@ kmain(char *arguments)
 {
 	boot();
 
+	hello();
 	menu(arguments);
 
 	/* Should not get here */
